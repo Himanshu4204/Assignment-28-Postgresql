@@ -1,0 +1,8 @@
+Q10. Select all the students who are doing a specific course, eg. Web Development?
+
+(First Find Course_id of Web Development from Courses Table ,it will return course_id)
+postgres =# select course_id from Courses where course_name='Web Develpment';
+
+(second find student_name with the help of course_id ,on student Table )
+postgres =# select student_name from student where course_id=(---Paste here course_id query---):
+

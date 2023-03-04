@@ -1,0 +1,4 @@
+Q6.6. Delete all the data from student table.?
+
+(To Delete all the Data from Student Table)
+postgres=# delete from student;

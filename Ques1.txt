@@ -1,0 +1,9 @@
+Q1. Create a table (student) with 3 columns (rollno, name, course).?
+
+(To create a Table)
+postgres=# create table student(
+                    student_rollno int,
+                    student_name text,
+                    student_course text,
+                    primary key(student_rollno)
+                    );

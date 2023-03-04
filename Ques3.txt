@@ -1,0 +1,5 @@
+#3. Write a Select query to fetch all the students.?
+
+(select columnname from tablename)
+postgres=# SELECT student_name FROM student;
+postgres=# select student.student_name from student;

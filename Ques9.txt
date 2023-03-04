@@ -1,0 +1,7 @@
+Q9. Insert data in both the tables.?
+
+(Insert data in Table Courses)
+postgres =# insert into Courses values(126,'Web Develpment'),(145,'Software Develpment'),(256,'Data Science');
+
+(Insert Data in Table student)
+postgres =# insert into student values(101,'Himanshu',126),(102,'Saurav',145),(103,'Rahul',256);

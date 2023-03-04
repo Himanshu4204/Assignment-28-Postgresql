@@ -1,0 +1,4 @@
+Q7. Drop the student table.?
+
+(To Delete a Table Use this command)
+postgres=# drop table student;

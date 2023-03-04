@@ -1,0 +1,14 @@
+Q8. Create Courses table (cid, cname) where cid is a primary key and Student table
+(rollno, name, cid) where rollno is a primary key and cid is a foreign key.
+
+(To Create Courses table)
+postgres =# create table Courses(course_id int,course_name text,primary key(course_id));
+
+(To Create Student table)
+postgres =# create table Student(
+                                student_rollno int,
+                                student_name text,
+                                Course_id int,
+                                primary key(student_rollno),
+                                constraint fk_Course foreign key(course_id) references Courses(course_id)
+                                    );

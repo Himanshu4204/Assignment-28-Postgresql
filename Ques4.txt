@@ -1,0 +1,4 @@
+Q4. Update the student name of rollno 103 with ‘Mohan’?
+
+(To Update a Name)
+postgres=# update student set student_name='Mohan' where student_rollno=103;

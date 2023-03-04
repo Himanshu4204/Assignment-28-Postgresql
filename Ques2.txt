@@ -1,0 +1,5 @@
+Q2. Insert records for 4 students.?
+
+(To insert data into table..)
+postgres=# insert into student values(101,'Himanshu','Python'),(102,'Saurav','Html'),(103,'Ritik','Javascript'),(104,'Yash','Django');
+
